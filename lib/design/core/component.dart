@@ -1,6 +1,7 @@
-import 'package:atom/core/base_component.dart';
-import 'package:atom/core/behaviors.dart';
+import 'package:atom/design/core/behaviors.dart';
 import 'package:flutter/material.dart';
+
+import 'base_component.dart';
 
 class Component implements BaseComponent {
   Widget render(

@@ -1,5 +1,5 @@
-import 'package:atom/behaviors/images/behavior_image.dart';
-import 'package:atom/core/behaviors.dart';
+import 'package:atom/design/behaviors/images/behavior_image.dart';
+import 'package:atom/design/core/behaviors.dart';
 
 class AppImage {
   static rectangularImage() {

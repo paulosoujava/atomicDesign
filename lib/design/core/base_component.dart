@@ -1,4 +1,4 @@
-import 'package:atom/core/behaviors.dart';
+import 'package:atom/design/core/behaviors.dart';
 import 'package:flutter/material.dart';
 
 abstract class BaseComponent {

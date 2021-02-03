@@ -1,6 +1,7 @@
 import 'package:atom/atom/images/atom_image.dart';
-import 'package:atom/core/behaviors.dart';
-import 'package:atom/core/component.dart';
+import 'package:atom/design/core/behaviors.dart';
+import 'package:atom/design/core/component.dart';
+
 import 'package:flutter/material.dart';
 
 class BehaviorImage extends StatelessWidget with Component {

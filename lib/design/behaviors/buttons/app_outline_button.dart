@@ -1,4 +1,4 @@
-import 'package:atom/core/behaviors.dart';
+import 'package:atom/design/core/behaviors.dart';
 
 import 'behavior_outline_button.dart';
 
