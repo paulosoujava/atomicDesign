@@ -1,5 +1,3 @@
-import 'package:atom/core/behaviors.dart';
-import 'package:atom/core/component.dart';
 import 'package:flutter/material.dart';
 
 class AtomOutlineButton extends StatelessWidget {

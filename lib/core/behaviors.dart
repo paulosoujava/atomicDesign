@@ -1,1 +1,1 @@
-enum Behaviour { regular, disabled, loading, error, empty }
+enum Behaviour { regular, disabled, loading, error, empty, circular, rectagular }

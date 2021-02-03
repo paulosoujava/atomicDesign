@@ -12,5 +12,9 @@ abstract class BaseComponent {
 
   Widget whenEmpty(BuildContext context, Behaviour behaviour);
 
+  Widget whenCircle(BuildContext context, Behaviour behaviour);
+
+  Widget whenRectangle(BuildContext context, Behaviour behaviour);
+
   Widget render(BuildContext context, Behaviour behaviour);
 }

@@ -28,6 +28,14 @@ class Component implements BaseComponent {
         return whenDisabled(context, behaviour);
         break;
 
+      case Behaviour.rectagular:
+        return whenRectangle(context, behaviour);
+        break;
+
+      case Behaviour.circular:
+        return whenCircle(context, behaviour);
+        break;
+
       default:
         throw "$behaviour is not implemented for $this";
     }
@@ -55,6 +63,16 @@ class Component implements BaseComponent {
 
   @override
   Widget whenRegular(BuildContext context, Behaviour behaviour) {
+    throw UnimplementedError();
+  }
+
+  @override
+  Widget whenCircle(BuildContext context, Behaviour behaviour) {
+    throw UnimplementedError();
+  }
+
+  @override
+  Widget whenRectangle(BuildContext context, Behaviour behaviour) {
     throw UnimplementedError();
   }
 }
