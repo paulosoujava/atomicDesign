@@ -1,5 +1,6 @@
-import 'package:atom/design/organisms/organism_list_animals.dart';
-
+import 'package:atom/design/organisms/login/login.dart';
+import 'package:atom/design/organisms/register/register.dart';
+import 'package:atom/design/template/template_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,7 +10,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Container(
-        child: Scaffold(body: OrganismListAnimals()),
+        child: Scaffold(
+          body: TemplatePage(widgets: [
+            Login.form(context),
+          ]),
+        ),
       ),
     );
   }

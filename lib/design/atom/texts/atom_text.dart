@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class AtomLoremText extends StatelessWidget {
+class AtomText extends StatelessWidget {
   final String label;
   final int maxLines;
   final double fontSize;
 
-  const AtomLoremText({
+  const AtomText({
     Key key,
     this.label,
     this.maxLines,

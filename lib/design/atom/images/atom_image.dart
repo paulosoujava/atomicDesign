@@ -10,8 +10,8 @@ class AtomImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Image.network(
       urlPath,
-      width: 80.0,
-      height: 80.0,
+      width: width ?? 80.0,
+      height: height ?? 80.0,
       fit: BoxFit.cover,
     );
   }

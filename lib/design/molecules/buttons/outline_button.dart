@@ -1,13 +1,14 @@
+import 'package:atom/design/atom/texts/atom_text.dart';
 import 'package:flutter/material.dart';
 
-class AtomOutlineButton extends StatelessWidget {
+class MoleculeOutlineButton extends StatelessWidget {
   final Function onPressed;
-  final Widget child;
+  final AtomText atomText;
   final Color color, disabledBorderColor, highlightColor, hoverColor, textColor, disabledTextColor;
   final double highlightElevation;
   final bool autofocus;
 
-  const AtomOutlineButton({
+  const MoleculeOutlineButton({
     Key key,
     this.onPressed,
     this.color,
@@ -17,7 +18,7 @@ class AtomOutlineButton extends StatelessWidget {
     this.textColor,
     this.disabledTextColor,
     this.highlightElevation,
-    this.child,
+    this.atomText,
     this.autofocus,
   }) : super(key: key);
 
@@ -32,7 +33,7 @@ class AtomOutlineButton extends StatelessWidget {
       textColor: textColor,
       disabledTextColor: disabledTextColor,
       onPressed: onPressed,
-      child: child,
+      child: atomText,
       color: color,
     );
   }
