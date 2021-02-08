@@ -1,3 +1,4 @@
+import 'package:atom/design/behaviors/icons/behavior_icons.dart';
 import 'package:flutter/material.dart';
 
 class MolecularIconButton extends StatelessWidget {
@@ -7,6 +8,6 @@ class MolecularIconButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(icon: new Icon(Icons.arrow_back), onPressed: onPressed);
+    return IconButton(icon: BehaviorIcons.back(), onPressed: onPressed);
   }
 }

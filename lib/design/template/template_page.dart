@@ -1,6 +1,4 @@
-import 'package:atom/design/behaviors/icons/behavior_icons.dart';
 import 'package:atom/design/behaviors/images/app_image.dart';
-import 'package:atom/design/molecules/buttons/app_button.dart';
 import 'package:atom/design/utils/sizes/sizes.dart';
 import 'package:flutter/material.dart';
 
